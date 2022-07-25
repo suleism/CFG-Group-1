@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none; border: none;
+    font-family:'Raleway', sans-serif;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 65%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0; right: 1px;
+    background: #FFFEF2;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.logo {
+    position: relative;
+    top: 0; left: 0;
+    margin-top: -4px;
+    padding: 0rem;
+    margin-left: 1px;
+}
+
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .navbar {
+    text-align: right;
+    position: relative;
+    padding-top: 3rem;
+    padding-right: 0rem;
+}
+
+header .navbar a{
+    font-size: 17px;
+    padding: 0 3.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color:  rgb(240, 205, 211);
+}
+
+header .icons {
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 2rem;
+    padding-right: 4rem
+}
+
+
+header .icons a:hover{
+    color: rgb(246, 220, 223);
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #333;
+    float: left;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+.header #check{
+    display: none;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(https://img.freepik.com/premium-photo/background-beauty-products_160139-824.jpg?w=2000) no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+.home .content {
+    max-width: 100%;
+}
+
+.home .content h4{
+    font-size: 6rem;
+    color: #333;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color: #20341E;
+    padding: 1rem 0;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.about-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:  rgb(240, 205, 211);
+    color: white;
+    padding: 1.2rem 2.2rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.about-btn:hover {
+    background: #fff;
+    color:  rgb(240, 205, 211);
+}
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: #666;
+}
+
+.about {
+    background-color: #f9f8ee;
+    width: 83%;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+    margin-top: 60px;
+}
+
+.title h1{
+    font-size: 7vmin;
+}
+
+.title span {
+    color: rgb(82, 64, 41);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about .row {
+    margin: 50px;
+}
+
+.col h4 {
+    font-size: 3vmin;
+    color: rgb(86, 61, 28);
+    margin: 20px auto;
+}
+
+p {
+    color: #333;
+    padding: 0px 40px;
+}
+
+.about .about-btn {
+    margin-top: 30px;
+}
+
+/* stylings for products */
+.main-wrapper{
+    background-color: #fff;
+    min-height: 100vh;
+    overflow-x: 0;
+}
+.prod-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.main-title{
+    text-align: center;
+}
+.main-title h1{
+    padding: 16px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.display-style-btns{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    padding: 16px 0;
+    border-radius: 5px;
+}
+.display-style-btns button{
+    border: none;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.display-style-btns button:hover{
+    color: rgb(240, 205, 211);
+}
+.active-btn{
+    color:  rgb(240, 205, 211) ;;
+}
+
+.item-list{
+    margin: 36px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 32px;
+}
+.item{
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 4px 0 rgba(15, 4, 4, 0.05);
+    transition: all 0.2s ease-out;
+}
+.item:hover{
+    box-shadow: 0 0 10px 1px rgba(0, 4, 4, 0.15);
+}
+.item-img{
+    position: relative;
+    overflow: hidden;
+}
+.item-img img{
+    width: 70%;
+    margin: 16px auto;
+}
+.icon-list{
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+}
+.icon-list button{
+    border: none;
+    background-color: #202020;
+    color: #fff;
+    margin: 0 6px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.icon-list button:hover{
+    background-color: #f4f4f4;
+    color: #202020;
+}
+.item-img:hover .icon-list{
+    bottom: 26px;
+}
+.item-detail{
+    padding: 16px;
+    color: #202020;
+    text-align: center;
+}
+.item-name{
+    font-weight: 500;
+    font-size: 18px;
+    color: #202020;
+    display: block;
+}
+.item-price{
+    margin: 10px 0;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.old-price{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.new-price{
+    color: #f79410;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.item-detail p{
+    font-weight: 300;
+    opacity: 0.9;
+    font-size: 15px;
+    line-height: 1.7;
+    display: none;
+}
+.add-btn{
+    margin: 16px 0;
+    text-transform: uppercase;
+    border: none;
+    background-color: #202020;
+    color: #fff;
+    font-family: inherit;
+    padding: 10px 28px;
+    border: 1px solid #202020;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    display: none;
+}
+.add-btn:hover{
+    background-color: #fff;
+    color: #202020;
+}
+
+
+/* stylings for details active */
+.details-active.item-list{
+    grid-template-columns: 100%;
+}
+.details-active .item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.details-active .item-detail{
+    text-align: left;
+}
+.details-active .item-price{
+    justify-content: flex-start;
+}
+.details-active .item-detail p{
+    display: block;
+}
+.details-active .item-detail .add-btn{
+    display: block;
+}
+
+/* stylings for ing intro */
+.intro {
+    background-color: #f9f8ee;
+    width: 83%;
+    padding-top: 190px;
+    margin-bottom: 50px;
+}
+
+.intro-title {
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+    font-size: 20px;
+}
+
+.ing-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ing-row .ing-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro .ing-col {
+    margin: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: rgb(106, 90, 70);
+    margin: 20px auto;
+}
+
+p {
+    color: #333;
+    padding: 0px 40px;
+}
+
+.intro .about-btn {
+    margin-top: 30px;
+}
+
+/* stylings for ingredients slide */
+
+a{
+    text-decoration: none;
+}
+
+.slider{
+    margin: 25px;
+    width: 350px;
+    background-color: #f8f5e0;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.image{
+    position: relative;
+}
+
+.image img{
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.product-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.product-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name a{
+    color: #333;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+span{
+    color: #333;
+}
+
+.price{
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 23px;
+}
+
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 25px;
+   height: 50px;
+   width: 150px;
+   background-color:rgb(240, 205, 211);
+   color: #fff;
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: pink;
+    transition: all ease 1s;
+}
+
+.Button{
+    visibility: hidden;
+}
+
+.image:hover .Button{
+    visibility: visible;
+    animation: animation 1s;
+}
+
+@keyframes animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+    height: 600px;
+    width: 4000px;
+    margin: 10px auto;
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.arrow{
+    position: absolute;
+    top: 740px;
+    right: 0px;
+    color: #f9f8ee;
+    font-size: 125px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 678px){
+    .item-list{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .item-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px){
+    .details-active .item{
+        grid-template-columns: 100%;
+    }
+}
