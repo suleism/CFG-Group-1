@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Herb-Skincare</title>
+    <link rel="stylesheet" href="style css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Poppins:wght@200&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2763f10543.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="game.js"></script>
+</head>
+
+<header>
+    <!-- == Logo == -->
+    <div class="logo"><a href="#"><img src="./images/herb-glow_logo.png" width="240px" height="100px"></a>
+    </div>
+    <!-- == Navigation bar== -->
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="#PRODUCTS">SHOP</a>
+        <a href="ingredients.html">BLOG</a>
+        <a href="#CONTACT">CONTACT</a>
+    </nav>
+
+    <!-- == icons(notworking) == -->
+    <div class="icons"; style="font-size: 22px"; style="color:white">
+        <i class="fa-duotone fa-cart-shopping"></i>
+        <a href="#" class="fa-duotone fa-cart-shopping"></a>
+    </div>
+</header>
+
+<body>
+   <!-- == INTRO == -->  
+ <section class="intro">
+    <div class="intro-title"> 
+        <h1>ABOUT US</h1>
+        <div class="line"></div>
+    </div>
+    <div class="ing-row">
+        <div class="ing-col">
+        <h4>A fresh introduction to skincare</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="index.html" class="about-btn">Home Page</a>
+    </div>
+</section>
+
+<!-- ==INGREDIENTS== -->
+<div class="container">
+    <div class="slider">
+        <div class="image">
+            <img src="https://blogscdn.thehut.net/app/uploads/sites/1160/2017/05/aloe_750x620.jpg">
+
+            <div class="Button">
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="product-name">
+                <a href="#">Aloe Vera</a>
+                <span>New Arrival</span>
+            </div>
+            <a href="#" class="price">&#8377;500</a>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="image">
+            <img src="images/vitamin-c-serums-101-best-products-alt-1440x810.jpeg">
+            <div class="Button">
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="product-name">
+                <a href="#">Vitamin C</a>
+                <span>New Arrival</span>
+            </div>
+            <a href="#" class="price">&#8377;300</a>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="image">
+            <img src="images/pomegranate.jpeg">
+
+            <div class="Button">
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="product-name">
+                <a href="#">Pomegranate</a>
+                <span>New Arrival</span>
+            </div>
+            <a href="#" class="price">&#8377;350</a>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="image">
+            <img src="https://www.byrdie.com/thmb/c68pYnrF7SZM0YlA7JnNeMV4riA=/4444x3333/smart/filters:no_upscale()/USED_Lavender-Oil-for-Skin-3388-2x3-hires-ef87316dce0048f185fca56a51fd1bb6.jpg">
+            <div class="Button">
+                <a href="https://www.byrdie.com/lavender-oil-for-skin-4801192" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="product-name">
+                <a href="#">Lavendar</a>
+                <span>New Arrival</span>
+            </div>
+            <a href="#" class="price">&#8377;250</a>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="image">
+            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F23%2F2022%2F02%2F04%2Fwitch-hazel-2000.jpg&q=60">
+            <div class="Button">
+                <a href="https://www.realsimple.com/beauty-fashion/skincare/witch-hazel-for-skin" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="product-name">
+                <a href="#">Witch Hazel</a>
+                <span>New Arrival</span>
+            </div>
+            <a href="#" class="price">&#8377;400</a>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="image">
+            <img src="https://media.doterra.com/us/en/images/1x1-600x600-tea-tree-oil-for-skin.jpg">
+            <div class="Button">
+                <a href="https://www.medicalnewstoday.com/articles/best-tea-tree-oil" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="product-name">
+                <a href="#">Tea Tree Oil</a>
+                <span>New Arrival</span>
+            </div>
+            <a href="#" class="price">&#8377;580</a>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="image">
+            <img src="https://stylecaster.com/wp-content/uploads/2020/08/best-almond-oil-for-skin-amazon.jpg">
+            <div class="Button">
+                <a href="https://bebodywise.com/blog/almond-benefits-for-skin/" class="btn">Learn More</a>
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="product-name">
+                <a href="#">Neroli</a>
+                <span>New Arrival</span>
+            </div>
+            <a href="#" class="price">&#8377;520</a>
+        </div>
+    </div>
+    </div>
+        <i class="fas fa-chevron-right arrow"></i>
+    </div>
+</div>
+
+<script type="text/javascript">
+    const arrows = document.querySelectorAll(".arrow");
+    const container= document.querySelectorAll(".container");
+
+    arrows.forEach((arrow, i) => {
+        const ItemNo = container[i].querySelectorAll("img").length;
+        let clickitem = 0;
+        arrow.addEventListener("click", () => {
+            clickitem++;
+            if(ItemNo - (5 + clickitem) >= 0){
+                container[i].style.transform = `translateX(${
+                    container[i].computedStyleMap().get("transform")[0].x.value
+                    - 455}px)`;
+            }else{
+                container[i].style.transform = "translateX(0)";
+                clickitem = 0;
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
