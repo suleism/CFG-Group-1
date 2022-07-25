@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Herb-Skincare</title>
+    <link rel="stylesheet" href="style css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Poppins:wght@200&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2763f10543.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+    
+    <body>
+        <header>
+            <input type="checkbox" id="checkbox">
+            <label for="check" class="checkbtn"></label>
+            <i class="fas fa-bars"></i>
+            <!-- == Logo == -->
+            <div class="logo"><a href="#"><img src="./images/herb-glow_logo.png" width="240px" height="100px"></a>
+            </div>
+            <!-- == Navigation bar== -->
+            <nav class="navbar">
+                <a href="index.html">HOME</a>
+                <a href="#PRODUCTS">SHOP</a>
+                <a href="ingredients.html">BLOG</a>
+                <a href="#CONTACT">CONTACT</a>
+            </nav>
+
+            <!-- == icons(notworking) == -->
+            <div class="icons"; style="font-size: 22px"; style="color:white">
+                <i class="fa-duotone fa-cart-shopping"></i>
+                <a href="#" class="fa-duotone fa-cart-shopping"></a>
+            </div>
+        </header>
+    
+        <!-- == HOME SECTION == -->
+        <section class="home" id="home">
+
+            <div class="content">
+                <h4>Hierba</h4>
+                <span>A fresh introduction to skincare</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="about-btn">shop now</a>
+            </div>
+        </section>
+
+        <!-- ==ABOUT US== -->
+        <section class="about">
+            <div class="title"> 
+                <h1>ABOUT <span>  US </span> </h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                <img src="./images/flat-lay-natural-self-care-products-composition_23-2148990019.webp" width="400px" height="400px">
+                <h4>A fresh introduction to skincare</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="ingredients.html" class="about-btn">Learn more</a>
+            </div>
+
+            <div class="col">
+                <img src="./images/istockphoto-1306102673-612x612.jpeg" width="400px" height="400px">
+                <h4>A fresh introduction to skincare</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="about-btn">shop now</a>
+            </div>
+            </div>
+        </section>
+
+<!-- ==Products== -->
+<section>
+    <div class = "main-wrapper">
+        <div class = "prod-container">
+            <div class = "main-title">
+                <h1>Featured Products</h1>
+            </div>
+            <div class = "display-style-btns">
+                <button type = "button" id = "grid-active-btn">
+                    <i class = "fas fa-th"></i>
+                </button>
+                <button type = "button" id = "details-active-btn">
+                    <i class = "fas fa-list-ul"></i>
+                </button>
+            </div>
+
+            <div class = "item-list">
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "Hierba/cleanser.jpg">
+                        <div class = "icon-list">
+                            <span class="product-grid__btn product-grid__add-to-cart"><i class="fa fa-cart-arrow-down"></i> Add to cart</span>				
+                            <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Hierba Cleanser</a>
+                        <div class = "item-price">
+                            <span class = "main-price">$33.00</span>
+                        </div>
+                        <p>Hierba Cleanser is an organic cleansing product made with natural ingredients such as aloe vera, glycerin, and essential oils. This gentle face wash removes impurities without stripping your skin of its natural oils.</p>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "Hierba/face-oil-img.jpg">
+                        <div class = "icon-list">
+                            <span class="product-grid__btn product-grid__add-to-cart"><i class="fa fa-cart-arrow-down"></i> Add to cart</span>				
+                            <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Hierba Face Oil</a>
+                        <div class = "item-price">
+                            <span class = "main-price">$21.00</span>
+                        </div>
+                        <p>Hierba Face Oil is an organic, non-greasy face oil that works to hydrate your skin while providing it with essential nutrients. This lightweight formula contains nourishing oils such as jojoba, avocado, rosehip seed, and vitamin E to leave your skin feeling refreshed and radiant.</p>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "Hierba/serum-img.jpg">
+                        <div class = "icon-list">
+                            <span class="product-grid__btn product-grid__add-to-cart"><i class="fa fa-cart-arrow-down"></i> Add to cart</span>				
+                            <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Hierba Serum</a>
+                        <div class = "item-price">
+                            <span class = "main-price">$25.00</span>
+                        </div>
+                        <p>Hierba Serum is an antioxidant-rich moisturizer formulated specifically for sensitive skin types. This lightweight formula contains a blend of natural botanicals including aloe vera, green tea extract, and vitamin E to protect and nourish your skin while reducing redness and irritation.</p>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "Hierba/exfoliant-img.jpg">
+                        <div class = "icon-list">
+                            <span class="product-grid__btn product-grid__add-to-cart"><i class="fa fa-cart-arrow-down"></i> Add to cart</span>				
+                            <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Hierba Exfoliant</a>
+                        <div class = "item-price">
+                            <span class = "main-price">$28.00</span>
+                        </div>
+                        <p>Hierba Exfoliant is an organic exfoliating scrub made from natural ingredients such as aloe vera, avocado oil, honey, lemon juice, olive oil, sea salt, sugar cane, and wheat germ. This product helps remove dead skin cells from the top layer of your skin, leaving it smooth and glowing.</p>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "Hierba/toner-img.jpg">
+                        <div class = "icon-list">
+                                <span class="product-grid__btn product-grid__add-to-cart"><i class="fa fa-cart-arrow-down"></i> Add to cart</span>				
+                                <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Hierba Toner</a>
+                        <div class = "item-price">
+                            <span class = "main-price">$20.00</span>
+                        </div>
+                        <p>Hierba Toner is an effective way to deeply cleanse and purify your skin while replenishing it with essential nutrients. This gentle formula contains no alcohol or harsh chemicals. The result? A healthier complexion that looks fresh and radiant.</p>
+                    </div>
+                </div>
+
+                <div class = "item">
+                    <div class = "item-img">
+                        <img src = "Hierba/moisturizer.jpg">
+                        <div class = "icon-list">
+                            <span class="product-grid__btn product-grid__add-to-cart"><i class="fa fa-cart-arrow-down"></i> Add to cart</span>				
+                            <span class="product-grid__btn product-grid__view"><i class="fa fa-eye"></i> View more</span>
+                            <button type = "button">
+                                <i class = "far fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class = "item-detail">
+                        <a href = "#" class = "item-name">Hierba Moisturizing Cream</a>
+                        <div class = "item-price">
+                            <span class = "main-price">$29.00</span>
+                        </div>
+                        <p>Hierba Moisturizing Cream is an effective treatment for dry and sensitive skin. This cream contains a unique combination of natural ingredients which work together to create a protective layer over the skin, creating a barrier between your skin & the environment.</p>
+                    </div>
+                </div>
+
+    </div>
+</section>
+<script src="game.js"></script>
+</body>
+</html>
