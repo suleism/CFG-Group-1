@@ -35,27 +35,23 @@ header {
 .logo {
     position: relative;
     top: 0; left: 0;
-    margin-top: -4px;
+    margin-top: -1px;
     padding: 0rem;
-    margin-left: 1px;
-}
-
-header .logo{
-    font-size: 3rem;
-    color: #333;
-    font-weight: bolder;
+    padding-left: 100px;
+    padding-right: 0px;
 }
 
 header .navbar {
-    text-align: right;
+    text-align: center;
     position: relative;
     padding-top: 3rem;
-    padding-right: 0rem;
+    padding-right: 2rem;
+    padding-left: 0rem;
 }
 
 header .navbar a{
-    font-size: 17px;
-    padding: 0 3.5rem;
+    font-size: 16px;
+    padding: 0 3.6rem;
     color: #666;
 }
 
@@ -74,18 +70,94 @@ header .icons {
 header .icons a:hover{
     color: rgb(246, 220, 223);
 }
-
-.checkbtn {
-    font-size: 30px;
-    color: #333;
-    float: left;
-    line-height: 80px;
-    margin-right: 40px;
-    display: none;
-    cursor: pointer;
+/* toggle */
+.menu-container {
+    box-sizing: border-box;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background: rgb(255, 254, 254);
+    z-index: 1;
+    transition: 0.5s ease;
+    transform: translateX(-250px);
 }
 
-.header #check{
+.menu-head {
+    color: #333;
+    font-size: 28px;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    background: rgb(251, 231, 234);
+}
+
+ol {
+    width: 100%;
+    list-style: none;
+}
+
+ol li {
+    display: block;
+    width: 100%;
+}
+
+ol li a{
+    color: #333;
+    padding: 25px 10px;
+    display: block;
+    font-size: 16px;
+    position: relative;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+ol li a i {
+    width: 70px;;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+ol li:hover a{
+    background: rgb(249, 230, 233);
+    opacity: 6;
+    color: #333;
+}
+
+input {
+    -webkit-appearance: none;
+    visibility: none;
+    display: none;
+}
+
+span {
+    position: absolute;
+    right: -60px;
+    top: 30px;
+    font-size: 23px;
+    color: white;
+    padding: 3px 8px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#bars {
+    background: rgb(240, 205, 211);
+    color: white;
+}
+
+#times {
+    background: rgb(240, 205, 211);
+    color: white;
+}
+
+#check:checked ~ .menu-container {
+    transform: translateX(0);
+}
+
+#check:checked ~ .menu-container #bars{
     display: none;
 }
 
@@ -429,7 +501,6 @@ p {
 }
 
 /* stylings for ingredients slide */
-
 a{
     text-decoration: none;
 }
@@ -552,20 +623,17 @@ span{
     font-size: 125px;
     cursor: pointer;
 }
-
 @media screen and (min-width: 678px){
     .item-list{
         grid-template-columns: repeat(2, 1fr);
         gap: 32px;
     }
 }
-
 @media screen and (min-width: 768px){
     .item-list{
         grid-template-columns: repeat(3, 1fr);
     }
 }
-
 @media screen and (max-width: 576px){
     .details-active .item{
         grid-template-columns: 100%;
