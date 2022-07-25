@@ -254,6 +254,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 4rem;
 }
 
 .about .row {
@@ -276,15 +277,21 @@ p {
 }
 
 /* stylings for products */
+
 .main-wrapper{
     background-color: #fff;
     min-height: 100vh;
     overflow-x: 0;
 }
+img{
+    width: 100%;
+    display: block;
+}
 .prod-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
+    box-sizing: border-box;
 }
 .main-title{
     text-align: center;
