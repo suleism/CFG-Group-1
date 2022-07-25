@@ -14,12 +14,25 @@
 </head>
     
     <body>
+
         <header>
-            <input type="checkbox" id="checkbox">
-            <label for="check" class="checkbtn"></label>
-            <i class="fas fa-bars"></i>
+            <!-- ==Toggle == -->
+         <input type="checkbox" id="check">
+         <div class="menu-container">
+             <label for="check">
+                 <span class="fas fa-times" id="times"></span>
+                 <span class="fas fa-bars" id="bars"></span>
+             </label>
+             <div class="menu-head">MENU</div>
+             <ol>
+                 <li><a href="#"><i class="fa-solid fa-house"></i>home</a></li>
+                 <li><a href="#"><i class="fas fa-info"></i>about us</a></li>
+                 <li><a href="#"><i class="fa-solid fa-bag-shopping"></i>product</a></li>
+                 <li><a href="#"><i class="fas fa-users"></i>contact</a></li>
+             </ol>
+         </div>
             <!-- == Logo == -->
-            <div class="logo"><a href="#"><img src="./images/herb-glow_logo.png" width="240px" height="100px"></a>
+            <div class="logo"><a href="#"><img src="./images/herb-glow_logo.png" width="260px" height="100px"></a>
             </div>
             <!-- == Navigation bar== -->
             <nav class="navbar">
@@ -29,11 +42,7 @@
                 <a href="#CONTACT">CONTACT</a>
             </nav>
 
-            <!-- == icons(notworking) == -->
-            <div class="icons"; style="font-size: 22px"; style="color:white">
-                <i class="fa-duotone fa-cart-shopping"></i>
-                <a href="#" class="fa-duotone fa-cart-shopping"></a>
-            </div>
+            <i class="fas fa-shoppingcart"></i>
         </header>
     
         <!-- == HOME SECTION == -->
@@ -50,12 +59,12 @@
         <!-- ==ABOUT US== -->
         <section class="about">
             <div class="title"> 
-                <h1>ABOUT <span>  US </span> </h1>
+                <h1>ABOUT US</h1>
                 <div class="line"></div>
             </div>
             <div class="row">
                 <div class="col">
-                <img src="./images/flat-lay-natural-self-care-products-composition_23-2148990019.webp" width="400px" height="400px">
+                    <img src="./images/flat-lay-natural-self-care-products-composition_23-2148990019.webp" width="400px" height="400px">
                 <h4>A fresh introduction to skincare</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <a href="ingredients.html" class="about-btn">Learn more</a>
