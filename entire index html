@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Herb-Skincare</title>
+    <title>Hierba-Skincare</title>
     <link rel="stylesheet" href="style css.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&family=Poppins:wght@200&family=Raleway&display=swap" rel="stylesheet">
@@ -25,56 +25,55 @@
              </label>
              <div class="menu-head">MENU</div>
              <ol>
-                 <li><a href="#"><i class="fa-solid fa-house"></i>home</a></li>
-                 <li><a href="#"><i class="fas fa-info"></i>about us</a></li>
-                 <li><a href="#"><i class="fa-solid fa-bag-shopping"></i>product</a></li>
-                 <li><a href="#"><i class="fas fa-users"></i>contact</a></li>
+                 <li><a href="index.html"><i class="fa-solid fa-house"></i>home</a></li>
+                 <li><a href="ingredients.html"><i class="fas fa-info"></i>about us</a></li>
+                 <li><a href="product.html"><i class="fa-solid fa-bag-shopping"></i>product</a></li>
+                 <li><a href="https://twitter.com/hierbaskincare"><i class="fas fa-users"></i>contact</a></li>
              </ol>
          </div>
             <!-- == Logo == -->
-            <div class="logo"><a href="#"><img src="./images/herb-glow_logo.png" width="260px" height="100px"></a>
+            <div class="logo"><a href="index.html"><img src="./images/herb-glow_logo.png" width="260px" height="108px"></a>
             </div>
             <!-- == Navigation bar== -->
             <nav class="navbar">
                 <a href="index.html">HOME</a>
-                <a href="#PRODUCTS">SHOP</a>
+                <a href="product.html">SHOP</a>
                 <a href="ingredients.html">BLOG</a>
-                <a href="#CONTACT">CONTACT</a>
+                <a href="https://twitter.com/hierbaskincare">CONTACT</a>
             </nav>
 
-            <i class="fas fa-shoppingcart"></i>
         </header>
     
         <!-- == HOME SECTION == -->
         <section class="home" id="home">
 
             <div class="content">
-                <p class="home-title">Hierba</h3>
-                <p class="home-intro">A fresh introduction to skincare</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#" class="about-btn">shop now</a>
+                <p class="home-title">Hierba skincare</h3>
+                <p class="home-intro">herb: /həːb/ noun: Any plant with leaves, seeds, or flowers used for flavouring, medicine, perfume or skincare products.</h4>
+                <p>Hierba Skincare products are made with only the finest quality herbs and botanicals. We use only the highest grade of essential oils and plant extracts to create our unique formulations. Our goal is to provide you with the best skincare product available suitable for all skin types.</p>
+                <a href="product.html" class="about-btn">Shop Now</a>
             </div>
         </section>
 
         <!-- ==ABOUT US== -->
         <section class="about">
             <div class="title"> 
-                <h1>ABOUT US</h1>
+                <h1>Naturally glowy skin starts here</h1>
                 <div class="line"></div>
             </div>
             <div class="row">
                 <div class="col">
-                    <img src="./images/flat-lay-natural-self-care-products-composition_23-2148990019.webp" width="400px" height="400px">
-                <h4>A fresh introduction to skincare</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="ingredients.html" class="about-btn">Learn more</a>
+                    <img src="./images/flat-lay-natural-self-care-products-composition_23-2148990019.webp" width="400px" height="400px" class="about-img">
+                <h4>A Fresh Introduction To Skincare</h4>
+                <p>Click To Learn More.</p>
+                <a href="ingredients.html" class="about-btn">Learn More</a>
             </div>
 
             <div class="col">
-                <img src="./images/istockphoto-1306102673-612x612.jpeg" width="400px" height="400px">
-                <h4>A fresh introduction to skincare</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#" class="about-btn">shop now</a>
+                <img src="./images/istockphoto-1306102673-612x612.jpeg" width="400px" height="400px" class="about-img">
+                <h4>Organic Products = Happy Skin</h4>
+                <p>Herbal And Natural Ingredients. </p>
+                <a href="product.html" class="about-btn">Shop Now</a>
             </div>
             </div>
         </section>
@@ -215,9 +214,29 @@
                         <p>Hierba Moisturizing Cream is an effective treatment for dry and sensitive skin. This cream contains a unique combination of natural ingredients which work together to create a protective layer over the skin, creating a barrier between your skin & the environment.</p>
                     </div>
                 </div>
-
     </div>
 </section>
+
+<!-- ==footer== -->
+<div class="footer">
+    <div class="footer-content">
+        <h3 class="footer-title">Hierba Skincare</h3>
+        <p class="footer-info">An organic skincare line that is 100% vegan, cruelty-free and paraben-free.</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/hierbaskincare"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a></li>
+            <li><a href="https://www.linkedin.com/home"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+    </div>
+    
+</div>
+<div class="footer-bottom">
+    COPYRIGHT 2022 &copy; hierbaskincare.com  |  Designed by Suleka Wenzela and Justyna
+</div>
+
+
 <script src="game.js"></script>
 </body>
 </html>
