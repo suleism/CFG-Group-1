@@ -250,6 +250,9 @@ text-align: column;
 transition: 2s;
 left: 3%;
 right: 4%;
+inline-size: 350px;
+overflow-wrap: break-word;
+text-align: center;
 
 }
 
